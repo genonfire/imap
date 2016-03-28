@@ -126,14 +126,6 @@ def check_mail():
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-# recover_stamp = 946706400 # Jan 1 2000
-# now = datetime.now()
-# now_stamp = calendar.timegm(now.utctimetuple())
-# recover = datetime.fromtimestamp(now_stamp)
-# print "now : %s" % now
-# print "now_stamp : %s" % now_stamp
-# print "recover : %s" % recover
-
 while(True):
   check_mail()
   time.sleep(POLLING_SEC)
