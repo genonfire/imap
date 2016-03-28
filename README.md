@@ -1,6 +1,6 @@
 # imap
-simple script downloading attachment via imap
-using (http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/)
+simple script downloading attachment via imap using
+(http://www.voidynullness.net/blog/2013/07/25/gmail-email-with-python-via-imap/)
 
 # HowTo
 edit configuration then run python imap.py
@@ -21,5 +21,5 @@ M = imaplib.IMAP4(EMAIL_SERVER) // non-SSL
 ```
 
 # TODO
-need to run long running test
-handle multiple attachments
+  - need to run long running test
+  - handle multiple attachments
