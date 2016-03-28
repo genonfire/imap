@@ -15,8 +15,10 @@ TIMESTAMP_PATH = "./timestamp.log"
 POLLING_SEC = 600 # 10 min
 ```
 
+```c
 M = imaplib.IMAP4_SSL(EMAIL_SERVER) // SSL server
 M = imaplib.IMAP4(EMAIL_SERVER) // non-SSL
+```
 
 # TODO
 need to run long running test
