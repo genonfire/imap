@@ -20,6 +20,5 @@ M = imaplib.IMAP4_SSL(EMAIL_SERVER) // SSL server
 M = imaplib.IMAP4(EMAIL_SERVER) // non-SSL
 ```
 
-# TODO
-  - need to run long running test
-  - handle multiple attachments
+# Screenshot
+![screenshot](./imap.png?raw=true "screenshot")
